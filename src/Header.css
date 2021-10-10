@@ -1,0 +1,55 @@
+.header__search {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.header_searchInput {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid hsl(210, 31%, 80%);
+  outline: none;
+  max-width: 600px;
+  background: transparent;
+  padding: 1rem;
+  font-size: 1rem;
+  color: hsl(209, 34%, 30%);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 1rem;
+}
+
+.header__btns {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__btns p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.header__btns button {
+  margin: 1rem;
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-color: transparent;
+  background: hsl(205, 78%, 60%);
+  border-radius: 0.25rem;
+  color: white;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.header__btns button:disabled {
+  cursor: not-allowed;
+}
